@@ -1,5 +1,5 @@
 /*
-*    ARRAY FORMAT:
+*    ARRAY FORMAT:d
 *        0: STRING (Classname)
 *        1: STRING (Display Name, leave as "" for default)
 *        2: SCALAR (Price)
