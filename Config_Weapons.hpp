@@ -31,6 +31,7 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
             { "hgun_ACPC2_F", "", 11500, 5750, "" },
             { "SMG_05_F", "", 18000, 9000, "" }, //Apex DLC
+            { "hgun_PDW2000_F", "", 20000, 10000, "" },
             { "hgun_PDW2000_F", "", 20000, 10000, "" }
         };
         mags[] = {
