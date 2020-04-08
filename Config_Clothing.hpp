@@ -233,22 +233,20 @@ class Clothing {
 
     class gang_clothing {
         title = "STR_Shops_C_Gang";
-        conditions = "license_civ_gang";
+        conditions = "license_civ_gangster";
         side = "civ";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "U_B_CombatIniform_mcam_tshirt", 1500, ""},
-            { "U_BG_Guerilla1_1", 1500, ""},
+            { "U_B_CombatIniform_mcam_tshirt", "", 1500, ""},
+            { "U_BG_Guerilla1_1", "", 1500, ""},
             { "U_B_CTRG_2", 1500, ""},
-            { "U_B_survival_uniform", 1500, ""},
-            { "U_I_G_Story_Protagonist_F", 1500, ""},
-            { "U_I_G_resistanceLeader_F" , 1500, ""},
-            { "U_BG_Guerilla_6_1", 1500, ""}, 
-            { "U_I_C_Solider_Para_1_F", 1500, ""},
-            { "U_I_Wetsuit", 1500, ""},
-            { "U_B_Wetsuit" , 1500, ""}
-            
-            
+            { "U_B_survival_uniform", "", 1500, ""},
+            { "U_I_G_Story_Protagonist_F", "", 1500, ""},
+            { "U_I_G_resistanceLeader_F", "", 1500, ""},
+            { "U_BG_Guerilla_6_1", "", 1500, ""}, 
+            { "U_I_C_Solider_Para_1_F", "", 1500, ""},
+            { "U_I_Wetsuit", "", 1500, ""},
+            { "U_B_Wetsuit", "", 1500, ""}
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" }
@@ -258,7 +256,16 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "V_Rangemaster_belt", "", 1900, "" }
+            { "V_Chestrig_khk", "", 1500, ""},
+			{ "V_Chestrig_rgr", "", 1500, ""},
+			{ "V_Chestrig_blk", "", 1500, ""},
+			{ "V_Chestrig_oli", "", 1500, ""},
+			{ "V_HarnessO_brn", "", 1500, ""},
+			{ "V_HarnessOGL_brn", "", 1500, ""},
+			{ "V_HarnessO_gry", "", 1500, ""},
+			{ "V_HarnessOGL_gry", "", 1500, ""},
+			{ "V_RebreatherB", "", 1500, ""},
+			{ "V_RebreatherIR", "", 1500, ""}
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" }
