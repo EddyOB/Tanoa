@@ -233,10 +233,22 @@ class Clothing {
 
     class gang_clothing {
         title = "STR_Shops_C_Gang";
-        conditions = "";
+        conditions = "license_civ_gang";
         side = "civ";
         uniforms[] = {
-            { "NONE", $STR_C_Remove_uniforms, 0, "" }
+            { "NONE", $STR_C_Remove_uniforms, 0, "" },
+            { "U_B_CombatIniform_mcam_tshirt", 1500, ""},
+            { "U_BG_Guerilla1_1", 1500, ""},
+            { "U_B_CTRG_2", 1500, ""},
+            { "U_B_survival_uniform", 1500, ""},
+            { "U_I_G_Story_Protagonist_F", 1500, ""},
+            { "U_I_G_resistanceLeader_F" , 1500, ""},
+            { "U_BG_Guerilla_6_1", 1500, ""}, 
+            { "U_I_C_Solider_Para_1_F", 1500, ""},
+            { "U_I_Wetsuit", 1500, ""},
+            { "U_B_Wetsuit" , 1500, ""}
+            
+            
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" }
